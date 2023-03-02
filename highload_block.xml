@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>1</id>
+		<name>Source</name>
+		<table_name>source</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>1</id>
+			<lid>ru</lid>
+			<name>Source</name>
+		</lang>
+		<lang>
+			<id>1</id>
+			<lid>en</lid>
+			<name>Source</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>9</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_CODE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Код</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Код</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Код</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>10</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_ACTIVITY</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Активность</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Активность</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Активность</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>11</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_PRICE</field_name>
+			<user_type_id>double</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<precision>4</precision>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Цена</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Цена</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Цена</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>double</base_type>
+		</field>
+		<field>
+			<id>12</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_FILE</field_name>
+			<user_type_id>file</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<list_width>200</list_width>
+				<list_height>200</list_height>
+				<max_show_size>0</max_show_size>
+				<max_allowed_size>0</max_allowed_size>
+				<extensions />
+				<target_blank>Y</target_blank>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Файл</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Файл</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Файл</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>file</base_type>
+		</field>
+		<field>
+			<id>13</id>
+			<entity_id>HLBLOCK_1</entity_id>
+			<field_name>UF_CITY</field_name>
+			<user_type_id>enumeration</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>5</list_height>
+				<caption_no_value />
+				<show_no_value>Y</show_no_value>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Город</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Город</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Город</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>enum</base_type>
+			<enums>
+				<enum0>
+					<id>1</id>
+					<user_field_id>13</user_field_id>
+					<value>Москва</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>e6eb3a7361bf01ed68df48c399e93e3e</xml_id>
+				</enum0>
+				<enum1>
+					<id>2</id>
+					<user_field_id>13</user_field_id>
+					<value>Санкт-Петербург</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>9f9db3e1b6daf430cfb339e7de02ec66</xml_id>
+				</enum1>
+				<enum2>
+					<id>3</id>
+					<user_field_id>13</user_field_id>
+					<value>Новосибирск</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>b367c7d4bbc33d666408a9f1586f745e</xml_id>
+				</enum2>
+				<enum3>
+					<id>4</id>
+					<user_field_id>13</user_field_id>
+					<value>Казань</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>7bc1ac797196d3878f93cb0298524066</xml_id>
+				</enum3>
+				<enum4>
+					<id>5</id>
+					<user_field_id>13</user_field_id>
+					<value>Екатеринбург</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>183d03308497dd29c807d03936142ff6</xml_id>
+				</enum4>
+				<enum5>
+					<id>6</id>
+					<user_field_id>13</user_field_id>
+					<value>Тюмень</value>
+					<def>N</def>
+					<sort>500</sort>
+					<xml_id>69a3ccd39c8f179cb60e2d0e32fbf9af</xml_id>
+				</enum5>
+			</enums>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_code>test-1</uf_code>
+			<uf_activity>Y</uf_activity>
+			<uf_price>2999</uf_price>
+			<uf_file>56</uf_file>
+			<uf_city>Казань</uf_city>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_code>test-2</uf_code>
+			<uf_activity>Y</uf_activity>
+			<uf_price>1999</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city>Москва</uf_city>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_code>test-3</uf_code>
+			<uf_activity>N</uf_activity>
+			<uf_price>3999</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city />
+		</item>
+		<item>
+			<id>4</id>
+			<uf_code>test-4</uf_code>
+			<uf_activity>N</uf_activity>
+			<uf_price>2350</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city>Казань</uf_city>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_code>test-5</uf_code>
+			<uf_activity>Y</uf_activity>
+			<uf_price>1299</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city>Екатеринбург</uf_city>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_code>test-10</uf_code>
+			<uf_activity>Y</uf_activity>
+			<uf_price>5999</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city>Москва</uf_city>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_code>test-12</uf_code>
+			<uf_activity>Y</uf_activity>
+			<uf_price>3199</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city>Санкт-Петербург</uf_city>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_code>test-16</uf_code>
+			<uf_activity>Y</uf_activity>
+			<uf_price>5999</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city>Тюмень</uf_city>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_code>test-32</uf_code>
+			<uf_activity>Y</uf_activity>
+			<uf_price>7999</uf_price>
+			<uf_file>0</uf_file>
+			<uf_city>Новосибирск</uf_city>
+		</item>
+	</items>
+</hiblock>
